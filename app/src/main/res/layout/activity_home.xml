@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="Logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="جــــودة في الإنــــتـــاج\nتــمــيــز فــي الــتـــســـويــــق"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:layout_marginTop="16dp">
+
+        <TextView android:id="@+id/nav_nurseries" android:text="المشتلات" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+        <TextView android:id="@+id/nav_experts" android:text="خبراء زراعيون" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+        <TextView android:id="@+id/nav_equipment" android:text="المعدات الفلاحية" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+
+        <TextView android:id="@+id/nav_land" android:text="أراضي زراعية للكراء" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+        <TextView android:id="@+id/nav_products" android:text="منتجات الفلاحين" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+        <TextView android:id="@+id/nav_offers" android:text="العروض المميزة" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+
+        <TextView android:id="@+id/nav_ads" android:text="الإعلانات" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+        <TextView android:id="@+id/nav_search" android:text="البحث" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+        <TextView android:id="@+id/nav_notifications" android:text="إشعارات" android:gravity="center" android:padding="12dp" android:background="#E0E0E0" android:layout_margin="4dp" />
+
+        <TextView android:id="@+id/nav_account" android:text="حسابي" android:gravity="center" android:padding="16dp" android:background="#BBDEFB" android:layout_margin="4dp" android:layout_columnSpan="3" />
+    </GridLayout>
+</LinearLayout>
